@@ -1,0 +1,15 @@
+Executable  =  /home/ubuntu/Montage/bin/mDiffExec
+Arguments   = -p Kprojdir diffs.tbl Ktemplate.hdr diffdir
+
+output = outH.out
+error = errH.err
+
+request_cpus   = 1
+request_memory = 256
+request_disk   = 10240
+
+should_transfer_files = yes
+transfer_input_files = Kprojdir, diffs.tbl, Ktemplate.hdr
+
+queue
+

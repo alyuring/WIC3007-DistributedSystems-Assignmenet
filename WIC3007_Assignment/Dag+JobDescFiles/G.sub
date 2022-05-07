@@ -1,0 +1,15 @@
+Executable  =  /home/ubuntu/Montage/bin/mOverlaps
+Arguments   = images.tbl diffs.tbl
+
+output = outG.out
+error = errG.err
+
+request_cpus   = 1
+request_memory = 256
+request_disk   = 10240
+
+should_transfer_files = yes
+transfer_input_files = images.tbl
+
+queue
+

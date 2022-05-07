@@ -1,0 +1,15 @@
+Executable  =  /home/ubuntu/Montage/bin/mProjExec
+Arguments   = -p Kimages Kimages.tbl Ktemplate.hdr Kprojdir Kstats.tbl
+
+output =outC.out
+error=errC.err
+
+request_cpus   = 1
+request_memory = 256
+request_disk   = 10240
+
+should_transfer_files = Yes
+transfer_input_files = Kimages, Kimages.tbl, Ktemplate.hdr, Kprojdir
+transfer_output_files = Kprojdir, Kstats.tbl
+
+queue

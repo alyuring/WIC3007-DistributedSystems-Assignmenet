@@ -1,0 +1,14 @@
+Executable  =  /home/ubuntu/Montage/bin/mAdd
+Arguments   = -p Kprojdir images.tbl Ktemplate.hdr m17_uncorrected.fits
+
+output = outE.out
+err= errE.err
+
+request_cpus   = 1
+request_memory = 256
+request_disk   = 10240
+
+should_transfer_files = yes
+transfer_input_files = Kprojdir, images.tbl, Ktemplate.hdr
+
+queue

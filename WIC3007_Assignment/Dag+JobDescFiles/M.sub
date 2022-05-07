@@ -1,0 +1,16 @@
+Executable  = /home/ubuntu/Montage/bin/mViewer
+Arguments   = -ct 1 -gray m17.fits -1s max gaussian-log -out m17.png
+
+output       = outM.out
+error        = errM.err
+
+request_cpus   = 1
+request_memory = 256
+request_disk   = 10240
+
+should_transfer_files = yes
+transfer_input_files = m17.fits
+
+queue
+
+
